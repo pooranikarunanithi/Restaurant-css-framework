@@ -41,7 +41,7 @@
 
 /* -----Colors-----*/
 .kRed {
-    background-color: #830b11!important;
+    background-color: #186d0c!important;
 }
 
 .ktRed {
@@ -61,6 +61,18 @@
     line-height: 2rem;
 }
 
+.default-btn-two {
+    background-color: #0073bb;
+    background: linear-gradient(to right, #0073bb 0%, #193482 100%);
+    padding: 8px 40px 8px 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+
 /*----Buttons-----*/
 
 .btn {
@@ -77,7 +89,7 @@
 /* -----Card CSS----- */
 
 .indexCardBkg {
-    background-color: #ffc107;
+    background-color: #d5dad6;
 }
 
 .cardInd {
@@ -269,6 +281,51 @@ b {
         width: 20%;
     }
 
+    .footer-area {
+        background: url(https://aabsweets.com/assets/img/bg4.jpg) repeat;
+    }
+
+    .footer-area .single-widget h3 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        margin-bottom: 15px;
+        color: #ffffff;
+        /*border-bottom: 1px solid #ffc000;*/
+        padding-bottom: 10px;
+    }
+
+    .footer-area .single-widget ul li.address-s {
+        line-height: 2.1;
+    }
+
+    .footer-area .single-widget ul li {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .footer-area .single-widget ul li a {
+        color: #ffffff;
+    }
+
+    .footer-area .single-widget ul li a:hover {
+        color: #0073bb;
+    }
+
+    .footer-area .single-widget p {
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
 /*-----INDEX-----*/
 /*-----Jumbotron-----*/
 
@@ -302,6 +359,12 @@ b {
         visibility: hidden;
     }
 
+
+    .badge
+    {
+        background-color: rgb(20, 9, 82);
+        text-align: end;
+    }
 /*-----RESTAURANTS-----*/
 
     .cardRest {
