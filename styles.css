@@ -1,0 +1,338 @@
+/* * { border: 1px solid red; } */
+
+/* -----Fonts-----*/
+.fontWide {
+    font-family: 'spongebob_font_wideregular';
+}
+
+.fontCond {
+    font-family: 'spongebob_font_condensedRg';
+}
+
+@font-face {
+    font-family: 'spongebob_font_condensedRg';
+    src: url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff2') format('woff2'),
+         url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spongebob_font_wideregular';
+    src: url('./squarePantsFont/spongebobfontwideregular-x3nzv-webfont.woff2') format('woff2'),
+         url('./squarePantsFont/spongebobfontwideregular-x3nzv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-----navBar-----*/
+
+.navLink {
+    font-size: 125%;
+}
+
+.navMob {
+    width: 100%;
+}
+
+.navDesk {
+    display: none;
+}
+
+/* -----Colors-----*/
+.kRed {
+    background-color: #830b11!important;
+}
+
+.ktRed {
+    color: #830b11!important;
+}
+
+/*------Restaurant image-----*/
+
+.imgRest {
+    max-width: 100%;
+}
+
+/*-----Jumbotron-----*/
+
+.jumbotron h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/*----Buttons-----*/
+
+.btn {
+    background-color: #830b11!important;
+    border: none;
+    box-shadow: none!important;
+}
+
+.btn:active {
+    background-color: #830b11!important;
+    box-shadow: none!important;
+}
+
+/* -----Card CSS----- */
+
+.indexCardBkg {
+    background-color: #ffc107;
+}
+
+.cardInd {
+    width: 75%;
+    height: 100%; /*keeps the cards the same height*/
+    margin: auto;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.disc {
+    font-size: 0.8rem;
+}
+
+.imgInd {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.checkMenu:hover {
+    background-color: #ffc107!important;
+    color: black!important;
+}
+
+.madness {
+    margin-top: 1.5rem;
+}
+
+/*-----footer-----*/
+
+.footBar {
+    width: 100%;
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.footerText {
+    font-size: 0.8rem;
+}
+
+
+.footBar2 {
+    width: 30%;
+}
+
+.fa-twitter-square, .fa-instagram-square, .fa-yelp {
+    transform: scale(150%);
+}
+
+
+
+/*-----PICTURES-----*/
+
+.pictures {
+    background-image: url("./assets/krustyKrab.png");
+}
+
+.jumboPic {
+    color:#830b11!important;
+    background-color: transparent!important;
+}
+
+.footerPictures {
+    position: fixed;
+    bottom: 0;
+}
+
+/*-----carousel-----*/
+
+.slides {
+    max-width: 750px;
+    max-height: 400px;
+}
+
+.carousel-inner {
+    background-color: transparent;
+}
+
+.carousel-item img {
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/*-----pagination-----*/
+
+.page-link {
+    background-color: #830b11!important;
+    color: white!important;
+    font-family: 'spongebob_font_condensedRg';
+    border: none;
+}
+
+.pageActive {
+    background-color: #ffc107!important;
+    color: black!important;
+}
+
+.pagiDesk {
+    display: none;
+}
+
+/*-----MENU-----*/
+
+.menuDesk, .menuMob {
+    background-color: #ffc107;
+}
+
+.menuDesk {
+    display: none;
+}
+
+.accordion-button {
+    font-family: 'spongebob_font_wideregular';
+    border-color: #830b11!important;
+    box-shadow: none!important;
+}
+
+.mobMeals {
+    margin-left: auto;
+}
+
+.accordion-button::after, .accordion-button-collapsed::after {
+    display: none;
+}
+
+.accordion-body {
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.accordion-button:after {
+    visibility: hidden!important;
+}
+
+.thumbsUp {
+    background-color: #ffc107;
+}
+
+.thumbsUp img {
+    max-width: 40%;
+}
+
+/*-----RESTAURANTS-----*/
+
+.locations {
+    background-color: #ffc107;
+}
+
+.cardRest {
+    width: 20rem;
+    margin: auto;
+    border: 4px solid  #830b11;
+    border-radius: 10px;
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.fa-phone-square {
+    transform: scale(150%);
+    color: #830b11;
+}
+
+/*-----DESKTOP VERSION-----*/
+@media screen and (min-width: 800px) {
+
+/*----navbar-----*/
+    .navMob {
+        display: none;
+    }
+
+    .navDesk {
+        display: inherit;
+        width: 100%;
+    }
+
+/*-----footer-----*/
+
+    .footerText {
+        font-size: 1rem;
+    }
+
+    .footBar2 {
+        width: 20%;
+    }
+
+/*-----INDEX-----*/
+/*-----Jumbotron-----*/
+
+    .jumbotron {
+        padding: 3%;
+    }
+
+    .jumbotron h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+/*-----Card-----*/
+
+    .madness {
+        margin-top: 0;
+    }
+
+/*-----MENU-----*/
+
+    .menuDesk {
+        display: inherit;
+        font-size: large;
+    }
+
+    .menuMob, .thumbsUp {
+        display: none;
+    }
+
+    .wText {
+        visibility: hidden;
+    }
+
+/*-----RESTAURANTS-----*/
+
+    .cardRest {
+        width: 40rem;
+        border: 8px solid  #830b11;
+        transition: transform 1s;
+    }
+
+    .cardRest:hover {
+        transform: scale(105%);
+    }
+
+/*-----PICTURES-----*/
+
+    .pictures {
+        background-image: url("./assets/krustyKrab.png");
+    }
+
+    .jumboPic {
+        margin: auto;
+        max-width: max-content;
+        color: white!important;
+        background-color: #830b11!important;
+        border-radius: 10px;
+    }
+
+    .pagiDesk {
+        display: inherit;
+    }
+
+    .pagiMob {
+        display: none;
+    }
+}

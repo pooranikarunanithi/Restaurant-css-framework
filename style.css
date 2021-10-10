@@ -58,3 +58,14 @@ color: rgb(222, 220, 255);
         .price{
             color: blanchedalmond;
         }
+            
+            .col-md-6,.col-12,.col-md-4,.col-md-2
+            {
+                color: white;
+            }
+
+            .carousel-inner img {       
+                display:block;
+                height: auto; 
+                max-width: 100%;
+             }
