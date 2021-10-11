@@ -362,6 +362,7 @@ b {
 
     .list-group-item > .badge {
         float: right;
+        color:green;
       }
 /*-----RESTAURANTS-----*/
 
