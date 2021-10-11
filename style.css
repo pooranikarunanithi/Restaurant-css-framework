@@ -360,11 +360,9 @@ b {
     }
 
 
-    .badge
-    {
-        background-color: rgb(20, 9, 82);
-        text-align: end;
-    }
+    .list-group-item > .badge {
+        float: right;
+      }
 /*-----RESTAURANTS-----*/
 
     .cardRest {

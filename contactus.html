@@ -54,44 +54,78 @@
                 <li class="nav-item"><a href="./menu.html" class="nav-link kRed text-light navLink">Menu</a></li>
                 <li class="nav-item"><a href="./AboutUs.html" class="nav-link kRed text-light navLink">About Us</a></li>
                 <li class="nav-item"><a href="./pictures.html" class="nav-link kRed text-light navLink">Pictures</a></li>
-                <li class="nav-item"><a href="./contact.html" class="nav-link kRed text-light navLink">Contact</a></li>
+                <li class="nav-item"><a href="./contactus.html" class="nav-link kRed text-light navLink">Contact</a></li>
             </ul>
     </div>
     </nav>
     </header>
-
-    <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+    <!-- maps -->
+<div class="container-fluid">
+    <div class="row">
+    <div class="column col-12 col-md-6">
+            <iframe 
+            width="600" 
+            height="500" 
+            id="gmap_canvas" src="https://maps.google.com/maps?q=29%20square%20marie%20louise&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0"
+                scrolling="no" 
+                marginheight="50px" 
+                marginwidth="50px">
+                </iframe>
+            <style>
+            .mapouter
+            {
+            position:relative;
+            text-align:right;
+            height:500px;
+            width:600px;
+                margin-top:50px;
+            }
+            
+            .gmap_canvas
+                {
+                    overflow:hidden;
+                    background:none!important;
+                    height:200px;
+                    width:200px;
+                    }
+                    </style>
         </div>
-      </div>
+    
+<!-- end of maps -->
 
-    <div class="jumbotron" style="text-align: center;" >
-        <h2>Quality <span>you can taste</span></h2>
-               <p>The PR family is synonymous with a commitment to quality and a high degree of professionalism by using state of the art equipment in the manufacture of sweets, savouries, snacks and myriad varieties of Indian food. It is the taste of our food, coupled with our commitment to hygiene that makes us who we are today- a brand renowned for our authenticity.
-                
-                <br><a class="default-btn-two" href="ContactUs.html"><br>
-                     ContactUs
-                   <i class="flaticon-next"></i>
-                   
-        </a>
-        </div>
-        
-       
+<!-- forms starting-->
 
-     <footer class="footer-area ptb-100-70">
+    <div class="column col-12 col-md-6">
+        <form class="contactForm py-5 mx-2">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="input" class="form-control" id="firstName" aria-label="first name field">
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="input" class="form-control" id="lastName" aria-label="last name field">
+            </div>
+            <div class="mb-3">
+                <label for="emailAddress" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailAddress" aria-label="email field">
+            </div>
+
+            <div class="mb-3 form-outline">
+                <label for="messageForm" class="form-label">Your message</label>
+                <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+ 
+</div>
+</div>
+<!-- forms ending-->
+
+<!-- footer starting-->
+
+ <footer class="footer-area ptb-100-70">
 		<br>
         <br>	
         <div class="container">
@@ -140,7 +174,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="contact-us.html">
+                                <a href="contactus.html">
                                     <i class="flaticon-right-arrow-forward"></i>
                                     Contact Us
                                 </a>
