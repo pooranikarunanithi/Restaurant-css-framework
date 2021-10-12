@@ -58,7 +58,7 @@
 
 .jumbotron h1 {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .default-btn-two {
@@ -148,15 +148,17 @@ b {
 
 
 
-/*-----PICTURES-----*/
-
-.pictures {
-    background-image: url("./assets/krustyKrab.png");
-}
 
 .jumboPic {
+   
     color:#830b11!important;
     background-color: transparent!important;
+  
+        background-image: url("./images/ images for food gallery.jpg");
+    
+}
+.pictures {
+    background-image: url("./images/ images for food gallery.jpg");
 }
 
 .footerPictures {
